@@ -24,7 +24,7 @@
   </head>
   <body>
     <header
-      class="fixed bg-white w-full flex items-center justify-between md:px-1 py-2 z-50"
+      class="fixed bg-white w-full flex items-center justify-between py-2 z-50"
     >
       <div class="flex items-center justify-center md:gap-[1.02rem] md:ml-3">
         <svg
@@ -33,7 +33,7 @@
         >
           <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
         </svg>
-        <img src="assets/youtubeLogo.png" alt="" class="w-20 md:w-[5.8rem]" />
+        <img src="assets/youtubeLogo.png" alt="" class="cursor-pointer w-20 md:w-[5.8rem]" />
       </div>
       <div class="flex gap-6 md:gap-4 md:ml-[2.2rem]">
         <div class="flex border-[1px] border-gray-300 rounded-full">
@@ -44,7 +44,7 @@
           />
 
           <div class="w-[1px] bg-gray-200"></div>
-          <div class="bg-gray-50 rounded-r-full p-[.45rem] md:px-[1.2rem]">
+          <div class="bg-gray-50 cursor-pointer rounded-r-full p-[.45rem] md:px-[1.2rem]">
             <yt-icon class="style-scope ytd-searchbox"
               ><!--css-build:shady--><!--css-build:shady--><yt-icon-shape
                 class="style-scope yt-icon"
@@ -81,7 +81,7 @@
             ></yt-icon>
           </div>
         </div>
-        <div class="flex items-center mr-3 md:mr-0 p-2 rounded-full bg-gray-100">
+        <div class="flex items-center cursor-pointer mr-3 md:mr-0 p-2 rounded-full bg-gray-100">
           <yt-icon style="width: 24px; height: 24px"
             ><!--css-build:shady--><!--css-build:shady--><yt-icon-shape
               class="style-scope yt-icon"
@@ -115,7 +115,7 @@
         </div>
       </div>
       <div class="hidden md:flex items-center gap-6 px-6">
-        <div class="pt-1">
+        <div class="pt-1 cursor-pointer">
           <yt-icon-button
             id="button"
             class="style-scope ytd-topbar-menu-button-renderer style-default"
@@ -166,7 +166,7 @@
           ></yt-icon-button>
         </div>
 
-        <div>
+        <div class="cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             enable-background="new 0 0 24 24"
@@ -188,7 +188,7 @@
         </div>
 
         <div
-          class="flex items-center justify-center bg-gray-800 h-8 w-8 rounded-full"
+          class="flex items-center cursor-pointer justify-center bg-gray-800 h-8 w-8 rounded-full"
         >
           <p class="text-white text-lg">S</p>
         </div>
@@ -197,7 +197,7 @@
 
     <section class="flex px-6 md:px-0 py-16 ">
 
-      <nav class="fixed h-screen hidden md:flex flex-col w-[15%] h-screen px-3 bg-white hover:overflow-x-hidden hover:overflow-y-scroll mb-5 z-10">
+      <nav class="fixed h-screen hidden md:flex flex-col w-[15%] h-screen px-4 bg-white hover:overflow-x-hidden hover:overflow-y-scroll mb-5 z-10">
         <ul class="flex flex-col pb-1">
           <li
             class="w-[13rem] flex items-center gap-6 text-sm font-medium cursor-pointer bg-gray-100 rounded-xl py-2 pl-3"
@@ -273,10 +273,10 @@
             </div>
             <p>Subscriptions</p>
           </li>
+          <div class="my-3 w-full h-[1px] bg-gray-200"></div>
         </ul>
         
-        <ul>
-          <div class="my-3 w-full h-[1px] bg-gray-200"></div>
+        <ul> 
           <div class="flex items-center mb-2 gap-2 pl-3 font-medium">
             <p>You</p>
             <svg
@@ -362,10 +362,10 @@
             </div>
             <p>Your clips</p>
           </li>
+          <div class="my-3 w-[110%] mx-[-1rem] h-[.5px] bg-gray-200"></div>
         </ul>
 
         <ul>
-          <div class="my-3 w-full h-[1px] m-auto bg-gray-200"></div>
           <div class="flex items-center mb-1 gap-2 pl-3 font-medium">
             <p>Subscriptions</p>
           </div>
@@ -424,10 +424,10 @@
             </div>
             <p>Show more</p>
           </li>
+          <div class="my-3 w-[110%] mx-[-1rem] h-[1px] m-auto bg-gray-200"></div>
         </ul>
 
         <ul>
-          <div class="my-3 h-[1px] bg-gray-200"></div>
           <div class="flex items-center mb-1 gap-2 pl-3 font-medium">
             <p>Explore</p>
           </div>
@@ -517,10 +517,10 @@
             </div>
             <p>Podcasts</p>
           </li>
+          <div class="my-3 w-[110%] mx-[-1rem] h-[1px] m-auto bg-gray-200"></div>
         </ul>
 
         <ul>
-          <div class="my-3 h-[1px] bg-gray-200"></div>
           <div class="flex items-center mb-1 gap-2 pl-3 font-medium">
             <p>More from YouTube</p>
           </div>
@@ -583,10 +583,10 @@
             </div>
             <p>YouTube Kids</p>
           </li>
+          <div class="my-3 w-[110%] mx-[-1rem] h-[.5px] m-auto bg-gray-200"></div>
         </ul>
 
         <ul>
-          <div class="my-3 h-[1px] bg-gray-200"></div>
           <li
             class="w-[13rem] flex items-center gap-6 text-sm cursor-pointer hover:bg-gray-100 rounded-xl py-2 pl-3"
           >
@@ -618,11 +618,11 @@
             </div>
             <p>Send feedback</p>
           </li>
+          <div class="my-3 w-[110%] mx-[-1rem] h-[.5px] m-auto bg-gray-200"></div>
         </ul>
 
         
         <div class="text-[.8rem] pt-1 pb-20 px-3 w-[13rem] flex flex-col gap-3 text-slate-700 font-medium">
-            <div class="mt-3 mb-3 ml-[-.8rem] w-[15.8rem] h-[.9px] bg-gray-200"></div>
             <p>About Press Copyright Contact us Creators Advertise Developers</p>
             <p>TermsPrivacyPolicy & SafetyHow YouTube worksTest new features</p>
             <p class="text-xs text-gray-400 font-normal">© 2024 Google LLC</p>
@@ -631,7 +631,7 @@
       </nav>
 
       <main class="flex flex-col w-[100%] sm:w-[84%] sm:absolute left-[15%] sm:pl-4">
-          <ul class="hidden sm:flex items-center gap-3 bg-white fixed pl-4 text-sm py-3 w-full mt-[-.5rem] flex-wrap ">
+        <ul class="hidden sm:flex items-center gap-3 bg-white fixed pl-4 text-sm py-3 w-full mt-[-.5rem] flex-wrap ">
             <li class="rounded-lg bg-black text-white font-medium py-1 px-3">
               All
             </li>
@@ -674,7 +674,7 @@
             <li class="p-2 cursor-pointer rounded-full transition-all duration-300 ease-in-out hover:bg-gray-100">
               <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M4.97 12.65 9.62 8 4.97 3.35l.71-.71L11.03 8l-5.35 5.35-.71-.7z"></path></svg>
             </li>
-          </ul>
+        </ul>
 
         <div class="videos-sect sm:ml-4 sm:pt-[4rem] grid grid-cols-1 grid gap-y-8 gap-x-20 sm:gap-x-0 md:grid-cols-3">
           <div class="w-[20rem] sm:w-[25rem] flex flex-col gap-2">
